@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<widget xmlns	="http://www.w3.org/ns/widgets"
+	xmlns:gap	="http://phonegap.com/ns/1.0"
+	id			="com.christy.guess-who"
+	versionCode	="1"
+	version		="1.0.0">
+	
+	<name>Guess Who</name>
+	<description>From an old photo of The Delaneys, can you guess who's who</description>
+	
+	<author href= "https://christykavanagh.000webhostapp.com/" email= "christy_kavanagh@upcmail.ie">
+		Christy Kavanagh
+	</author>
+
+	<access origin="https://christykavanagh.000webhostapp.com/" />
+
+	<platform name="android" />
+
+	<icon src="icon.png" />
+
+		<content src="index.html"/>
+	
+	<preference name="orientation" value ="landscape" />
+	<preference name="fullscreen" value="true" />
+
+	<plugin name="cordova-plugin-inappbrowser" source="npm" />
+	<plugin name="cordova-plugin-whitelist" source="npm" />
+	
+</widget>
